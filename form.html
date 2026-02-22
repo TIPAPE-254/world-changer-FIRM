@@ -166,8 +166,8 @@
       <div class="col-lg-8">
         <div class="card shadow-lg form-card p-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
 
-          <!-- IMPORTANT: Replace YOUR_FORM_ID -->
-          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <!-- INTEGRATED WITH FORMSPREE -->
+          <form action="https://formspree.io/f/xnjbgdee" method="POST">
 
             <div class="row g-3">
 
@@ -228,6 +228,13 @@
               <!-- Hidden Subject -->
               <input type="hidden" name="_subject"
                      value="New Client Inquiry - World Changer Techs">
+              
+              <!-- Thank You Page Redirect -->
+              <input type="hidden" name="_next" 
+                     value="thank-you.html">
+              
+              <!-- Honeypot Spam Protection -->
+              <input type="text" name="_gotcha" style="display:none !important">
 
               <!-- Submit -->
               <div class="col-12 text-center mt-3">
